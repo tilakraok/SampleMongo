@@ -14,7 +14,7 @@ var http = require('http'),
     
  
 server.listen(5050);
-// app.set('port', process.env.PORT || 3000); 
+// aspp.set('port', process.env.PORT || 3000); 
 // app.set('views', path.join(__dirname, 'views'));
 // app.set('view engine', 'ejs');
 // app.use(express.bodyParser()); // <-- add
