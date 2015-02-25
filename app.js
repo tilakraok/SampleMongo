@@ -10,7 +10,7 @@ var http = require('http'),
     app.set('views', path.join(__dirname, 'views'));
 	app.set('view engine', 'jade');
     app.use(express.bodyParser()); // <-- add
-    var server = http.createServer(app);
+    var server1 = http.createServer(app);
     
  var mongotest='localhost';
 server.listen(5050);
