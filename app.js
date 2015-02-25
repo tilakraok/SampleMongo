@@ -11,6 +11,7 @@ var http = require('http'),
 	app.set('view engine', 'jade');
     app.use(express.bodyParser()); // <-- add
     var server = http.createServer(app);
+    
  
 server.listen(5050);
 // app.set('port', process.env.PORT || 3000); 
