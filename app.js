@@ -12,7 +12,7 @@ var http = require('http'),
     app.use(express.bodyParser()); // <-- add
     var server = http.createServer(app);
     
- var mongotest='localhost';
+ var mongotest234='localhost';
 server.listen(5050);
 // app.set('port', process.env.PORT || 3000); 
 // app.set('views', path.join(__dirname, 'views'));
